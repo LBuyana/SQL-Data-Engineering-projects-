@@ -1,0 +1,31 @@
+Left Join
+
+Returns all records from the left most table and matching records from the right most table
+
+Syntax:
+
+SELECT
+    jpf.job_id, 
+    cd.name As company_name,
+    jpf.job_title_short
+FROM 
+    job_postings_fact AS jpf
+LEFT JOIN 
+    company_dim as cd
+ON  
+    jpd.company_id = cd.company_id;
+
+Right Join
+
+Returns all records from the right most table and matching records from the left most table
+
+INNER Join
+
+return only when there are matches in both tables 
+
+Full OUTER Join
+
+Returns all rows from all tables
+-If keys match, rows are combines
+-If they don't, the missing side is null
+Great for checking data completeness
