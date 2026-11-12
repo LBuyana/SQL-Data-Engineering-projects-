@@ -1,6 +1,6 @@
 # Exploratory Data Analysis with SQL: Job market Analysis  
 
-![Project 1 Overview](../1_EDA/images/1_1_Project1_EDA.png)  
+![Project 1 Overview](1_EDA/images/1_1_Project1_EDA.png)  
 
 A SQL projec analysing the data Engineer job market using real world job posting. **It shows my ability to write production quality analysis SQL, design efficient queries, and turn business question into data-driven insights.**
 
@@ -12,13 +12,13 @@ A SQL projec analysing the data Engineer job market using real world job posting
 
 If you have a minute, review these:
 
-1. [Top Demanded skills](../1_EDA/01_top_demanded_skils.sql) 
-2. [Top Paying skills](../1_EDA/02_Top+paying_skill.sql)
-3. [Optimal skills](../1_EDA/03_Optimal_skills.sql)  
+1. [Top Demanded skills](1_EDA/01_top_demanded_skils.sql) 
+2. [Top Paying skills](1_EDA/02_Top+paying_skill.sql)
+3. [Optimal skills](1_EDA/03_Optimal_skills.sql)  
 
 This project analyses a **Data warehouse** built using a star schema design. The warehouse structure consists of:
 
-![Data warehouse](../1_EDA/images/1_2_Data_Warehouse.png)  
+![Data warehouse](1_EDA/images/1_2_Data_Warehouse.png)  
 - **Fact Table:** `job_postings_fact` – Central table containing job posting details (job titles, locations, salaries, dates, etc.)
 - **Dimension Tables:**
   - `company_dim` – Company information linked to job postings
@@ -46,9 +46,9 @@ Job market analysts need to answer questions like:
 
 ### Query Structure
 
-1. **[Top Demanded Skills](../1_EDA/01_top_demanded_skils.sql)** – Identifies the 10 most in-demand skills for remote data engineer positions
-2. **[Top Paying Skills](../1_EDA/02_Top+paying_skill.sql)** – Analyzes the 25 highest-paying skills with salary and demand metrics
-3. **[Optimal Skills](../1_EDA/03_Optimal_skills.sql)** – Calculates an optimal score using natural log of demand combined with median salary to identify the most valuable skills to learn
+1. **[Top Demanded Skills](1_EDA/01_top_demanded_skils.sql)** – Identifies the 10 most in-demand skills for remote data engineer positions
+2. **[Top Paying Skills](1_EDA/02_Top+paying_skill.sql)** – Analyzes the 25 highest-paying skills with salary and demand metrics
+3. **[Optimal Skills](1_EDA/03_Optimal_skills.sql)** – Calculates an optimal score using natural log of demand combined with median salary to identify the most valuable skills to learn
 
 ### Key Insights
 
